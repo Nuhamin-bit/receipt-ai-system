@@ -17,7 +17,7 @@ Finance and operations teams spend significant time manually entering receipt da
 This system automates the entire pipeline:
 
  Receipt Upload  
-⬇ 
+⬇               
 OCR Text Extraction  
 ⬇  
 LLM Structured Parsing  
