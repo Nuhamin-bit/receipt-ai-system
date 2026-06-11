@@ -1,11 +1,11 @@
-# 🧾 AI Receipt Intelligence System
+# AI Receipt Intelligence System
 
-## 🚀 Overview
+## Overview
 An AI-powered expense automation system that transforms raw receipts into structured financial data using OCR + Large Language Models. Built as a prototype for enterprise finance teams to reduce manual data entry and improve financial accuracy.
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 Finance and operations teams spend significant time manually entering receipt data, leading to:
 - High error rates
 - Delayed reporting cycles
@@ -13,22 +13,22 @@ Finance and operations teams spend significant time manually entering receipt da
 
 ---
 
-## 💡 Solution
+## Solution
 This system automates the entire pipeline:
 
-📸 Receipt Upload  
+ Receipt Upload  
+⬇ 
+OCR Text Extraction  
 ⬇  
-🔍 OCR Text Extraction  
+LLM Structured Parsing  
 ⬇  
-🤖 LLM Structured Parsing  
+Data Validation + Anomaly Detection  
 ⬇  
-🛡️ Data Validation + Anomaly Detection  
-⬇  
-📊 Structured JSON Output + Dashboard View  
+Structured JSON Output + Dashboard View  
 
 ---
 
-## 🧠 Key Features
+## Key Features
 - AI-powered receipt data extraction (GPT-based parsing)
 - OCR text recognition (image → text)
 - Automated validation rules (missing/invalid fields)
@@ -38,7 +38,7 @@ This system automates the entire pipeline:
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 - Backend: FastAPI (Python)
 - AI Layer: OpenAI GPT-4o-mini
 - OCR Engine: Tesseract / AWS Textract
@@ -47,19 +47,19 @@ This system automates the entire pipeline:
 
 ---
 
-## 📊 Business Impact
-- ⬇ Reduces manual data entry by ~80%
-- ⬆ Improves data accuracy and consistency
-- ⬆ Enables real-time expense tracking
-- ⬆ Scales to enterprise ERP integrations (SAP, Oracle-ready design)
+## Business Impact
+- Reduces manual data entry by ~80%
+- Improves data accuracy and consistency
+- Enables real-time expense tracking
+- Scales to enterprise ERP integrations (SAP, Oracle-ready design)
 
 ---
 
-## 🧪 Example Output
+## Example Output
 ```json
 {
-  "vendor": "Amazon",
+  "vendor": "Office Depot",
   "amount": 42.99,
-  "date": "2026-06-11",
+  "date": "2026-03-11",
   "category": "Office Supplies"
 }
